@@ -32,21 +32,13 @@ wikipedia는 다수의 사람들이 참여하여 함께 작성하는 인터넷 �
 - 전체 문서의 초록 plaintext
 - infobox와 초록을 합친 JSON
 
-
-
-#### 1-3. 소스코드 위치
-
-소스 코드는 **share/users/LJW/wikipedia** 에서 직접 다운로드 받거나,
-https://modi.changwon.ac.kr/air_cwnu/AIR_JUMP/wikipedia_refinement 에서 clone으로 다운로드 받으실 수 있습니다.
-
-
-#### 1-4. 시스템 요구사항
+#### 1-3. 시스템 요구사항
 
 **gawk 최신버전(2019년 5월 9일 기준 gawk버전 4.2.1에서 테스트됨.)**이 설치된 리눅스 또는 유닉스.
 
 
 
-#### 1-5. 통계
+#### 1-4. 통계
 
 본 프로그램을 사용했을때의 결과 통계는 **2019년 4월 1일** 기준으로 아래와 같습니다.
 
@@ -77,11 +69,7 @@ https://modi.changwon.ac.kr/air_cwnu/AIR_JUMP/wikipedia_refinement 에서 clone�
 
 3. 다운이 완료되면 압축을 해제하고, 터미널을 실행합니다.
 
-4. share 또는 gitlab clone기능을 통해 소스코드를 내려받습니다. gitlab 기준으로 소스코드를 다운로드 받는 방법은 다음과 같습니다.
-
-	1. SSL인증 오류가 있기때문에, clone을 처음 사용한다면 `git config --global http.sslVerify false` 명령어를 먼저 실행합니다. 이미 gitlab에서 clone기능을 사용한적이 있다면 건너뛰어도 됩니다.
-
-	2. 이후 `git clone https://modi.changwon.ac.kr/air_cwnu/AIR_JUMP/wikipedia_refinement.git` 명령어를 입력하면 소스코드가 **(현재 디렉토리)/wikipedia_refinement** 안에 다운로드 됩니다.
+4. `git clone https://github.com/chisacam/wiki2plain` 명령어를 입력하면 소스코드가 **(현재 디렉토리)/wiki2plain** 안에 다운로드 됩니다.
 
 5. 디렉토리 구조에 따라 dump xml파일을 이동하고, 터미널에서 `wikipedia_refinement.sh`를 다음 예시를 참고하여 실행 합니다.
 
