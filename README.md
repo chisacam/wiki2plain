@@ -4,7 +4,7 @@
 
 
 
-작성자 : 임종원(dladsds123@changwon.ac.kr)
+작성자 : 임종원(dladsds123@gmail.com)
 
 작성일 : 2019.05.09.
 
@@ -410,12 +410,3 @@ Wikipedia_refinement/
 ### 5. 참조
 
 [1] wiki2text 프로그램 출처 : https://github.com/rspeer/wiki2text
-
-
-### 6. ToDO
-
-1. ~~infobox 내용중 처리하도록 하지 않은 중괄호문 내용이 유실되는 문제 해결하기 #7~~
-
-2. ~~infobox, plaintext 출력시 제목을 제외한 나머지 내용 앞에 간혹 공백이 생기는 문제 해결하기~~
-
-3. ~~출력 파일 개별/통합 설정 옵션으로 추가하기~~
