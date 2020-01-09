@@ -54,7 +54,7 @@ case "$1" in
 			brew upgrade
 		elif [[ "$CHECK_OS" = "Linux"* ]]; then
 			sudo apt update
-			sudo apt upgrade
+			sudo apt upgrade gawk
 		fi
 		;;
 	*)
